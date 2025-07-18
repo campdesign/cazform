@@ -1,0 +1,297 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <meta http-equiv="Content-Style-Type" content="text/css">
+  <title></title>
+  <meta name="Generator" content="Cocoa HTML Writer">
+  <meta name="CocoaVersion" content="2575.6">
+  <style type="text/css">
+    p.p1 {margin: 0.0px 0.0px 0.0px 0.0px; font: 12.0px Helvetica}
+    p.p2 {margin: 0.0px 0.0px 0.0px 0.0px; font: 12.0px Helvetica; min-height: 14.0px}
+  </style>
+</head>
+<body>
+<p class="p1">&lt;!DOCTYPE html&gt;</p>
+<p class="p1">&lt;html lang="en"&gt;</p>
+<p class="p1">&lt;head&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;meta charset="UTF-8"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;meta name="viewport" content="width=device-width, initial-scale=1.0"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;title&gt;Cazenovia Club - Apparel Order Form&lt;/title&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;script src="https://cdn.tailwindcss.com"&gt;&lt;/script&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&amp;display=swap" rel="stylesheet"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;style&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>body {</p>
+<p class="p1"><span class="Apple-converted-space">            </span>font-family: 'Inter', sans-serif;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>}</p>
+<p class="p1"><span class="Apple-converted-space">        </span>.product-card {</p>
+<p class="p1"><span class="Apple-converted-space">            </span>transition: box-shadow 0.3s ease-in-out;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>}</p>
+<p class="p1"><span class="Apple-converted-space">        </span>.product-card:hover {</p>
+<p class="p1"><span class="Apple-converted-space">            </span>box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);</p>
+<p class="p1"><span class="Apple-converted-space">        </span>}</p>
+<p class="p1"><span class="Apple-converted-space">        </span>.quantity-input {</p>
+<p class="p1"><span class="Apple-converted-space">            </span>width: 60px;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>}</p>
+<p class="p1"><span class="Apple-converted-space">        </span>.logo-choice {</p>
+<p class="p1"><span class="Apple-converted-space">            </span>display: flex;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>align-items: center;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>cursor: pointer;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>}</p>
+<p class="p1"><span class="Apple-converted-space">        </span>.logo-choice input[type="radio"] {</p>
+<p class="p1"><span class="Apple-converted-space">            </span>opacity: 0;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>width: 0;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>height: 0;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>}</p>
+<p class="p1"><span class="Apple-converted-space">        </span>.logo-choice .logo-img {</p>
+<p class="p1"><span class="Apple-converted-space">            </span>border: 2px solid transparent;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>border-radius: 0.375rem; /* rounded-md */</p>
+<p class="p1"><span class="Apple-converted-space">            </span>padding: 2px;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>transition: border-color 0.2s;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>background-color: #f9fafb; /* bg-gray-50 */</p>
+<p class="p1"><span class="Apple-converted-space">        </span>}</p>
+<p class="p1"><span class="Apple-converted-space">        </span>.logo-choice input[type="radio"]:checked + .logo-img {</p>
+<p class="p1"><span class="Apple-converted-space">            </span>border-color: #4f46e5; /* indigo-600 */</p>
+<p class="p1"><span class="Apple-converted-space">        </span>}</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;/style&gt;</p>
+<p class="p1">&lt;/head&gt;</p>
+<p class="p1">&lt;body class="bg-gray-100"&gt;</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;form action="https://formspree.io/f/YOUR_EMAIL_HERE" method="POST"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;div class="container mx-auto p-4 sm:p-8"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;header class="text-center mb-10"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;h1 class="text-4xl font-bold text-gray-800"&gt;Cazenovia Club Apparel&lt;/h1&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;p class="text-gray-600 mt-2"&gt;2025 Order Form&lt;/p&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;/header&gt;</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;!-- Customer Information --&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;div class="bg-white p-6 rounded-lg shadow-md mb-8"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;h2 class="text-2xl font-bold text-gray-800 border-b pb-4 mb-6"&gt;Your Information&lt;/h2&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;div class="grid grid-cols-1 md:grid-cols-3 gap-6"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>&lt;label for="name" class="block text-sm font-medium text-gray-700"&gt;Name&lt;/label&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>&lt;input type="text" id="name" name="name" required class="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-indigo-500 focus:ring-indigo-500 sm:text-sm p-2"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>&lt;label for="cell" class="block text-sm font-medium text-gray-700"&gt;Cell #&lt;/label&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>&lt;input type="tel" id="cell" name="cell" class="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-indigo-500 focus:ring-indigo-500 sm:text-sm p-2"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>&lt;label for="email" class="block text-sm font-medium text-gray-700"&gt;Email&lt;/label&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>&lt;input type="email" id="email" name="email" required class="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-indigo-500 focus:ring-indigo-500 sm:text-sm p-2"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;/div&gt;</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;!-- Main Product Grid --&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;div id="product-grid"&gt;</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;!-- Apparel Sections --&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;div id="apparel-sections"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;!-- Women's Apparel --&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;section id="womens-apparel" class="mb-12"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>&lt;h2 class="text-3xl font-bold text-gray-800 border-b pb-4 mb-8"&gt;Women's Apparel&lt;/h2&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>&lt;div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                            </span>&lt;!-- Product Cards will be injected here by JavaScript --&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;/section&gt;</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;!-- Men's Apparel --&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;section id="mens-apparel" class="mb-12"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>&lt;h2 class="text-3xl font-bold text-gray-800 border-b pb-4 mb-8"&gt;Men's Apparel&lt;/h2&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>&lt;div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                            </span>&lt;!-- Product Cards will be injected here by JavaScript --&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;/section&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                    </span></p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;!-- Youth Apparel --&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;section id="youth-apparel" class="mb-12"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>&lt;h2 class="text-3xl font-bold text-gray-800 border-b pb-4 mb-8"&gt;Youth Apparel&lt;/h2&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>&lt;div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                            </span>&lt;!-- Product Cards will be injected here by JavaScript --&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;/section&gt;</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;!-- Headwear --&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;section id="headwear" class="mb-12"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>&lt;h2 class="text-3xl font-bold text-gray-800 border-b pb-4 mb-8"&gt;Headwear&lt;/h2&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>&lt;div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                            </span>&lt;!-- Product Cards will be injected here by JavaScript --&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;/section&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;/div&gt;</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;!-- Order Summary &amp; Submission --&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;footer class="bg-white p-6 rounded-lg shadow-md mt-8 sticky bottom-0"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;div class="flex flex-col md:flex-row justify-between items-center"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;div class="text-left mb-4 md:mb-0"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>&lt;p class="text-sm text-gray-600"&gt;Note: This form is for placing orders only. Payment will be coordinated separately by the club.&lt;/p&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;div class="text-right"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>&lt;div class="text-2xl sm:text-3xl font-bold text-gray-800"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                            </span>&lt;span&gt;Subtotal: &lt;/span&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                            </span>&lt;span id="subtotal"&gt;$0.00&lt;/span&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>&lt;input type="submit" value="Place Order" class="w-full md:w-auto mt-4 bg-indigo-600 text-white font-bold py-3 px-8 rounded-lg hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500 transition-colors cursor-pointer"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;/footer&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;/form&gt;</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;script&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>// --- DATA ---</p>
+<p class="p1"><span class="Apple-converted-space">        </span>const logoData = {</p>
+<p class="p1"><span class="Apple-converted-space">            </span>standard: [</p>
+<p class="p1"><span class="Apple-converted-space">                </span>{ name: 'The Cazenovia Club', imageUrl: 'https://storage.googleapis.com/gemini-prod-us-central1-cbf2/uploaded/shirtsLogo1.jpg-37006622-938d-423f-9c8c-3b8c0b3a1e71' },</p>
+<p class="p1"><span class="Apple-converted-space">                </span>{ name: 'Rackets Logo', imageUrl: 'https://storage.googleapis.com/gemini-prod-us-central1-cbf2/uploaded/RacketLogo.jpg-20fa8c08-6e57-49e0-a5b1-a8485be94c57' },</p>
+<p class="p1"><span class="Apple-converted-space">            </span>],</p>
+<p class="p1"><span class="Apple-converted-space">            </span>headwear: [</p>
+<p class="p1"><span class="Apple-converted-space">                </span>{ name: 'Cazenovia Tennis Club', imageUrl: 'https://storage.googleapis.com/gemini-prod-us-central1-cbf2/uploaded/hatlogo.jpg-2366466f-8e47-47ca-aaf4-98a381a40573' },</p>
+<p class="p1"><span class="Apple-converted-space">                </span>{ name: 'The Cazenovia Club', imageUrl: 'https://storage.googleapis.com/gemini-prod-us-central1-cbf2/uploaded/shirtsLogo1.jpg-37006622-938d-423f-9c8c-3b8c0b3a1e71' }</p>
+<p class="p1"><span class="Apple-converted-space">            </span>]</p>
+<p class="p1"><span class="Apple-converted-space">        </span>};</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">        </span>const products = {</p>
+<p class="p1"><span class="Apple-converted-space">            </span>womens: [</p>
+<p class="p1"><span class="Apple-converted-space">                </span>{ id: 'CR3317', name: 'Womens Axis Soft Shell Jacket', imageUrl: 'https://i.imgur.com/8i2a2N5.png', logos: logoData.standard, sizes: { 'XS': 64, 'S': 64, 'M': 64, 'L': 64, 'XL': 64, 'XXL': 67, 'XXXL': 68, 'XXXXL': 68 } },</p>
+<p class="p1"><span class="Apple-converted-space">                </span>{ id: 'L709', name: 'Port Authority Ladies Puffy Vest', imageUrl: 'https://i.imgur.com/k2b2gJt.png', logos: logoData.standard, sizes: { 'XS': 45, 'S': 45, 'M': 45, 'L': 45, 'XL': 45, 'XXL': 48, 'XXXL': 49, 'XXXXL': 49 } },</p>
+<p class="p1"><span class="Apple-converted-space">                </span>{ id: 'LST400LS', name: 'Sport-Tek Ladies PosiCharge Long Sleeve Tee', imageUrl: 'https://i.imgur.com/08S2d6j.png', logos: logoData.standard, sizes: { 'XS': 21, 'S': 21, 'M': 21, 'L': 21, 'XL': 21, 'XXL': 24, 'XXXL': 25, 'XXXXL': 25 } },</p>
+<p class="p1"><span class="Apple-converted-space">                </span>{ id: 'ST357-W', name: 'Sport-Tek PosiCharge Competitor 1/4 Zip Pullover', imageUrl: 'https://i.imgur.com/dO1yV8S.png', logos: logoData.standard, sizes: { 'XS': 21, 'S': 21, 'M': 21, 'L': 21, 'XL': 21, 'XXL': 24, 'XXXL': 25, 'XXXXL': 25 } },</p>
+<p class="p1"><span class="Apple-converted-space">                </span>{ id: 'L658', name: 'Port Authority Ladies SuperPro Oxford Shirt', imageUrl: 'https://i.imgur.com/gY3Bv9A.png', logos: logoData.standard, sizes: { 'XS': 36, 'S': 36, 'M': 36, 'L': 36, 'XL': 36, 'XXL': 39, 'XXXL': 40, 'XXXXL': 40 } },</p>
+<p class="p1"><span class="Apple-converted-space">                </span>{ id: 'LK8000', name: 'Port Authority Ladies EZCotton Polo', imageUrl: 'https://i.imgur.com/2Y4aY8W.png', logos: logoData.standard, sizes: { 'XS': 26, 'S': 26, 'M': 26, 'L': 26, 'XL': 26, 'XXL': 29, 'XXXL': 30, 'XXXXL': 30 } },</p>
+<p class="p1"><span class="Apple-converted-space">            </span>],</p>
+<p class="p1"><span class="Apple-converted-space">            </span>mens: [</p>
+<p class="p1"><span class="Apple-converted-space">                </span>{ id: 'K8000', name: 'Port Authority EZCotton Polo', imageUrl: 'https://i.imgur.com/PZ7sA7V.png', logos: logoData.standard, sizes: { 'XS': 26, 'S': 26, 'M': 26, 'L': 26, 'XL': 26, 'XXL': 29, 'XXXL': 30, 'XXXXL': 30 } },</p>
+<p class="p1"><span class="Apple-converted-space">                </span>{ id: 'K528', name: 'Port Authority Performance Fine Jacquard Polo', imageUrl: 'https://i.imgur.com/5J3e8Qp.png', logos: logoData.standard, sizes: { 'XS': 25, 'S': 25, 'M': 25, 'L': 25, 'XL': 25, 'XXL': 28, 'XXXL': 29, 'XXXXL': 29 } },</p>
+<p class="p1"><span class="Apple-converted-space">                </span>{ id: 'ST357-M', name: 'Sport-Tek PosiCharge Competitor 1/4 Zip Pullover', imageUrl: 'https://i.imgur.com/dO1yV8S.png', logos: logoData.standard, sizes: { 'XS': 21, 'S': 21, 'M': 21, 'L': 21, 'XL': 21, 'XXL': 24, 'XXXL': 25, 'XXXXL': 25 } },</p>
+<p class="p1"><span class="Apple-converted-space">                </span>{ id: 'S658', name: 'Port Authority SuperPro Oxford Shirt', imageUrl: 'https://i.imgur.com/gY3Bv9A.png', logos: logoData.standard, sizes: { 'XS': 36, 'S': 36, 'M': 36, 'L': 36, 'XL': 36, 'XXL': 39, 'XXXL': 40, 'XXXXL': 40 } },</p>
+<p class="p1"><span class="Apple-converted-space">            </span>],</p>
+<p class="p1"><span class="Apple-converted-space">            </span>youth: [</p>
+<p class="p1"><span class="Apple-converted-space">                </span>{ id: 'KP55Y', name: 'Port &amp; Company Youth Core Blend Jersey Knit Polo', imageUrl: 'https://i.imgur.com/xG5a4Qk.png', logos: logoData.standard, sizes: { 'Youth XS': 16, 'Youth S': 16, 'Youth M': 16, 'Youth L': 16, 'Youth XL': 16 } },</p>
+<p class="p1"><span class="Apple-converted-space">                </span>{ id: 'YOUTH-ZIP', name: 'Augusta Sportswear YOUTH Attain Wicking 1/4 Zip Pullover', imageUrl: 'https://i.imgur.com/c5B1b2j.png', logos: logoData.standard, sizes: { 'Youth XS': 17, 'Youth S': 17, 'Youth M': 17, 'Youth L': 17, 'Youth XL': 17 } },</p>
+<p class="p1"><span class="Apple-converted-space">            </span>],</p>
+<p class="p1"><span class="Apple-converted-space">            </span>headwear: [</p>
+<p class="p1"><span class="Apple-converted-space">                </span>{ id: 'C821', name: 'Port Authority Perforated Cap', price: 14.00, imageUrl: 'https://i.imgur.com/QZ6t8Yw.png', logos: logoData.headwear }</p>
+<p class="p1"><span class="Apple-converted-space">            </span>]</p>
+<p class="p1"><span class="Apple-converted-space">        </span>};</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">        </span>// --- DOM ELEMENTS ---</p>
+<p class="p1"><span class="Apple-converted-space">        </span>const subtotalEl = document.getElementById('subtotal');</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">        </span>// --- FUNCTIONS ---</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">        </span>function createLogoChoices(product) {</p>
+<p class="p1"><span class="Apple-converted-space">            </span>if (!product.logos) return '';</p>
+<p class="p1"><span class="Apple-converted-space">            </span>const name = `product_${product.id}_logo`;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>return product.logos.map((logo, index) =&gt; `</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;label class="logo-choice mr-4 mb-2"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;input type="radio" name="${name}" value="${logo.name}" ${index === 0 ? 'checked' : ''}&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;img src="${logo.imageUrl}" alt="${logo.name}" class="logo-img h-10 w-10 object-contain mr-2"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;span class="text-sm text-gray-700"&gt;${logo.name}&lt;/span&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;/label&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>`).join('');</p>
+<p class="p1"><span class="Apple-converted-space">        </span>}</p>
+<p class="p2"><span class="Apple-converted-space">        </span></p>
+<p class="p1"><span class="Apple-converted-space">        </span>function createProductCard(product) {</p>
+<p class="p1"><span class="Apple-converted-space">            </span>const sizeRows = Object.entries(product.sizes).map(([size, price]) =&gt; {</p>
+<p class="p1"><span class="Apple-converted-space">                </span>const name = `product_${product.id}_${size.replace(/\s/g, '')}_qty`;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>return `</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;tr class="border-b border-gray-200"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;td class="py-2 px-4 text-sm text-gray-700 font-medium"&gt;${size}&lt;/td&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;td class="py-2 px-4 text-sm text-gray-600"&gt;$${price.toFixed(2)}&lt;/td&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;td class="py-2 px-4 text-right"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>&lt;input type="number" name="${name}" min="0" value="0" class="quantity-input rounded-md border-gray-300 text-center" data-price="${price}" oninput="updateSubtotal()"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;/td&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;/tr&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>`}).join('');</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">            </span>const logoOptions = createLogoChoices(product);</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">            </span>return `</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;div class="product-card bg-white rounded-lg shadow-md overflow-hidden flex flex-col"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;img src="${product.imageUrl}" alt="${product.name}" class="w-full h-48 object-cover" onerror="this.onerror=null;this.src='https://placehold.co/600x400/E2E8F0/4A5568?text=Image+Not+Found';"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;div class="p-4 flex flex-col flex-grow"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>&lt;h3 class="text-lg font-bold text-gray-800"&gt;${product.name}&lt;/h3&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>&lt;p class="text-xs text-gray-500 mb-4"&gt;ID: ${product.id}&lt;/p&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>&lt;div class="mb-4"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                            </span>&lt;label class="text-sm font-medium text-gray-700 mb-2 block"&gt;Logo:&lt;/label&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                            </span>&lt;div class="flex flex-wrap"&gt;${logoOptions}&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>&lt;div class="flex-grow"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                            </span>&lt;table class="w-full text-left"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                                </span>&lt;thead&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                                    </span>&lt;tr class="bg-gray-50"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                                        </span>&lt;th class="py-2 px-4 text-xs font-semibold text-gray-600 uppercase"&gt;Size&lt;/th&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                                        </span>&lt;th class="py-2 px-4 text-xs font-semibold text-gray-600 uppercase"&gt;Price&lt;/th&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                                        </span>&lt;th class="py-2 px-4 text-xs font-semibold text-gray-600 uppercase text-right"&gt;Qty&lt;/th&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                                    </span>&lt;/tr&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                                </span>&lt;/thead&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                                </span>&lt;tbody&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                                    </span>${sizeRows}</p>
+<p class="p1"><span class="Apple-converted-space">                                </span>&lt;/tbody&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                            </span>&lt;/table&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>`;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>}</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">        </span>function createHeadwearCard(product) {</p>
+<p class="p1"><span class="Apple-converted-space">            </span>const logoOptions = createLogoChoices(product);</p>
+<p class="p1"><span class="Apple-converted-space">            </span>const name = `product_${product.id}_qty`;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>return `</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;div class="product-card bg-white rounded-lg shadow-md overflow-hidden flex flex-col"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;img src="${product.imageUrl}" alt="${product.name}" class="w-full h-48 object-cover" onerror="this.onerror=null;this.src='https://placehold.co/600x400/E2E8F0/4A5568?text=Image+Not+Found';"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;div class="p-4 flex flex-col flex-grow"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>&lt;h3 class="text-lg font-bold text-gray-800"&gt;${product.name}&lt;/h3&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>&lt;p class="text-xs text-gray-500 mb-4"&gt;ID: ${product.id}&lt;/p&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>&lt;div class="mb-4"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                            </span>&lt;label class="text-sm font-medium text-gray-700 mb-2 block"&gt;Logo:&lt;/label&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                            </span>&lt;div class="flex flex-wrap"&gt;${logoOptions}&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>&lt;div class="flex items-center justify-between mt-auto pt-4"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                             </span>&lt;p class="text-lg font-semibold text-gray-800"&gt;$${product.price.toFixed(2)}&lt;/p&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                             </span>&lt;div class="flex items-center"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                                </span>&lt;label class="mr-2 text-sm font-medium text-gray-700"&gt;Qty:&lt;/label&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                                </span>&lt;input type="number" name="${name}" min="0" value="0" class="quantity-input rounded-md border-gray-300 text-center" data-price="${product.price}" oninput="updateSubtotal()"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                             </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>`;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>}</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">        </span>function updateSubtotal() {</p>
+<p class="p1"><span class="Apple-converted-space">            </span>let total = 0;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>const quantityInputs = document.querySelectorAll('.quantity-input');</p>
+<p class="p1"><span class="Apple-converted-space">            </span>quantityInputs.forEach(input =&gt; {</p>
+<p class="p1"><span class="Apple-converted-space">                </span>const quantity = parseInt(input.value) || 0;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>const price = parseFloat(input.dataset.price);</p>
+<p class="p1"><span class="Apple-converted-space">                </span>if (quantity &gt; 0) {</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>total += quantity * price;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>}</p>
+<p class="p1"><span class="Apple-converted-space">            </span>});</p>
+<p class="p1"><span class="Apple-converted-space">            </span>subtotalEl.textContent = `$${total.toFixed(2)}`;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>}</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">        </span>function renderProducts() {</p>
+<p class="p1"><span class="Apple-converted-space">            </span>const womensContainer = document.querySelector('#womens-apparel .grid');</p>
+<p class="p1"><span class="Apple-converted-space">            </span>const mensContainer = document.querySelector('#mens-apparel .grid');</p>
+<p class="p1"><span class="Apple-converted-space">            </span>const youthContainer = document.querySelector('#youth-apparel .grid');</p>
+<p class="p1"><span class="Apple-converted-space">            </span>const headwearContainer = document.querySelector('#headwear .grid');</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">            </span>womensContainer.innerHTML = products.womens.map(createProductCard).join('');</p>
+<p class="p1"><span class="Apple-converted-space">            </span>mensContainer.innerHTML = products.mens.map(createProductCard).join('');</p>
+<p class="p1"><span class="Apple-converted-space">            </span>youthContainer.innerHTML = products.youth.map(createProductCard).join('');</p>
+<p class="p1"><span class="Apple-converted-space">            </span>headwearContainer.innerHTML = products.headwear.map(createHeadwearCard).join('');</p>
+<p class="p1"><span class="Apple-converted-space">        </span>}</p>
+<p class="p2"><span class="Apple-converted-space">        </span></p>
+<p class="p1"><span class="Apple-converted-space">        </span>document.addEventListener('DOMContentLoaded', renderProducts);</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;/script&gt;</p>
+<p class="p1">&lt;/body&gt;</p>
+<p class="p1">&lt;/html&gt;</p>
+</body>
+</html>
